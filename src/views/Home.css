@@ -8,4 +8,15 @@
     justify-content: space-evenly;
     width: 50%;
     margin-left: 25%;
+    height: 10%;
+}
+.timerWrap div {
+    margin-top: 25%;
+}
+.timerSubText {
+    color: hsl(237, 18%, 59%);
+}
+.socialSection {
+    width: 50%;
+    margin: 25%;
 }

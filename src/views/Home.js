@@ -9,16 +9,24 @@ export default (props) => {
                 <h4>WE'RE LAUNCHING SOON</h4>
                 <div className="timerWrap">
                     <div>
-                        DAYS
+                        <span className="timerSubText">
+                            DAYS
+                        </span>
                     </div>
                     <div>
-                        HOURS
+                        <span className="timerSubText">
+                            HOURS
+                        </span>
                     </div>
                     <div>
-                        Minutes
+                        <span className="timerSubText">
+                            MINUTES
+                        </span>
                     </div>
                     <div>
-                        Seconds
+                        <span className="timerSubText">
+                            SECONDS
+                        </span>
                     </div>
                 </div>
                 <div className="socialSection">
