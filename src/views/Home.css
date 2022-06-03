@@ -1,0 +1,11 @@
+.HomeWrap {
+    background-image: url(../static/bg-stars.svg);
+    width: 100vw;
+    height: 100vh;
+}
+.timerWrap {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin-left: 25%;
+}
