@@ -4,10 +4,24 @@ import {ReactComponent as Facebook} from '../static/icon-facebook.svg';
 import {ReactComponent as Pinterest} from '../static/icon-pinterest.svg';
 import {ReactComponent as Instagram} from '../static/icon-instagram.svg';
 export default (props) => {
+    var countDownDate = new Date("Jan 5, 2024 15:37:25").getTime();
+    var x = setInterval(function() {
+        var now = new Date().getTime();
+        var distance = countDownDate - now;
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    document.getElementById("days").innerHTML = days;
+    document.getElementById("hours").innerHTML = hours;
+    document.getElementById("minutes").innerHTML = minutes;
+    document.getElementById("seconds").innerHTML = seconds;
+        if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("days", "hours", "minutes", "seconds").innerHTML = "EXPIRED";
+        }
+    }, 1000);
 
-    function countDownFun() {
-
-    }
 
     return (
         <>
@@ -15,25 +29,25 @@ export default (props) => {
                 <h4>WE'RE LAUNCHING SOON</h4>
                 <div className="timerWrap">
                     <div>
-                        Number
+                        <span id='days'></span>
                         <span className="timerSubText">
                             DAYS
                         </span>
                     </div>
                     <div>
-                        Number
+                        <span id='hours'></span>
                         <span className="timerSubText">
                             HOURS
                         </span>
                     </div>
                     <div>
-                        Number
+                        <span id='minutes'></span>
                         <span className="timerSubText">
                             MINUTES
                         </span>
                     </div>
                     <div>
-                        Number
+                        <span id='seconds'></span>
                         <span className="timerSubText">
                             SECONDS
                         </span>
