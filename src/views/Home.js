@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './Home.css';
-
+import {ReactComponent as Facebook} from '../static/icon-facebook.svg';
+import {ReactComponent as Pinterest} from '../static/icon-pinterest.svg';
+import {ReactComponent as Instagram} from '../static/icon-instagram.svg';
 export default (props) => {
 
     return (
@@ -34,7 +36,9 @@ export default (props) => {
                     </div>
                 </div>
                 <div className="socialSection">
-                    social links
+                    <Facebook className="svg" fill='hsl(345, 95%, 68%)'/>
+                    <Pinterest className="svg"/>
+                    <Instagram className="svg"/>
                 </div>
             </div>
         </>

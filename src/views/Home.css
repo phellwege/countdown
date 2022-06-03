@@ -25,7 +25,10 @@
 .socialSection {
     width: 50%;
     margin: 25%;
+    display: flex;
+    justify-content: space-evenly;
 }
 .svg {
     fill: hsl(345, 95%, 68%);
+    color:hsl(345, 95%, 68%);
 }
