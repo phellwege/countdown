@@ -5,6 +5,10 @@ import {ReactComponent as Pinterest} from '../static/icon-pinterest.svg';
 import {ReactComponent as Instagram} from '../static/icon-instagram.svg';
 export default (props) => {
 
+    function countDownFun() {
+
+    }
+
     return (
         <>
             <div className="HomeWrap">
@@ -36,7 +40,7 @@ export default (props) => {
                     </div>
                 </div>
                 <div className="socialSection">
-                    <Facebook className="svg" fill='hsl(345, 95%, 68%)'/>
+                    <Facebook className="svg"/>
                     <Pinterest className="svg"/>
                     <Instagram className="svg"/>
                 </div>
