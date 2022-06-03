@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=Kumbh+Sans&family=Red+Hat+Text:wght@700&display=swap');
+
 .HomeWrap {
     background-image: url(../static/bg-stars.svg);
     width: 100vw;
     height: 100vh;
+    font-family: 'Red Hat Text';
 }
 .timerWrap {
     display: flex;
@@ -15,8 +18,12 @@
 }
 .timerSubText {
     color: hsl(237, 18%, 59%);
+    font-size: 14px;
 }
 .socialSection {
     width: 50%;
     margin: 25%;
+}
+.svg {
+    fill: hsl(345, 95%, 68%);
 }
