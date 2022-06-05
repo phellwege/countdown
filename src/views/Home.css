@@ -27,8 +27,8 @@
     font-size: 14px;
 }
 .socialSection {
-    width: 50%;
-    margin: 25%;
+    width: 20%;
+    margin: 25% 40%;
     display: flex;
     justify-content: space-evenly;
 }
@@ -49,6 +49,7 @@
     z-index: -1;
 }
 .timeBG {
+    background-size: 20em;
     background-color: hsl(236, 21%, 26%);
 }
 #days {
