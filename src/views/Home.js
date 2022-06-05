@@ -3,8 +3,10 @@ import './Home.css';
 import {ReactComponent as Facebook} from '../static/icon-facebook.svg';
 import {ReactComponent as Pinterest} from '../static/icon-pinterest.svg';
 import {ReactComponent as Instagram} from '../static/icon-instagram.svg';
-import {ReactComponent as BgMtn} from '../static/pattern-hills.svg'
+import BgMtn from '../static/pattern-hills.svg';
+
 export default (props) => {
+
     var countDownDate = new Date("Jan 5, 2024 15:37:25").getTime();
     var x = setInterval(function() {
         var now = new Date().getTime();
@@ -22,7 +24,6 @@ export default (props) => {
         document.getElementById("days", "hours", "minutes", "seconds").innerHTML = "EXPIRED";
         }
     }, 1000);
-
 
     return (
         <>
@@ -59,7 +60,7 @@ export default (props) => {
                     <Pinterest className="svg"/>
                     <Instagram className="svg"/>
                 </div>
-                <BgMtn className='Mtn'/>
+                <img src={BgMtn} className='Mtn'/>
             </div>
         </>
     )
