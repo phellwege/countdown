@@ -5,6 +5,7 @@
     width: 100vw;
     height: 100vh;
     font-family: 'Red Hat Text';
+    z-index: 0;
 }
 .timerWrap {
     display: flex;
@@ -30,9 +31,33 @@
 }
 .svg {
     fill: currentColor;
+    z-index: 1;
 }
 .svg:hover {
     fill: hsl(345, 95%, 68%);
     stroke:hsl(345, 95%, 68%);
     cursor: pointer;
+}
+.Mtn {
+    position: fixed;
+    width: 125vw;
+    left: 0;
+    right: 0;
+    bottom:0;
+    z-index: -1;
+}
+.timeBG {
+    background-color: hsl(236, 21%, 26%);
+}
+#days {
+    color:hsl(345, 95%, 68%);
+}
+#hours {
+    color:hsl(345, 95%, 68%);
+}
+#minutes {
+    color:hsl(345, 95%, 68%);
+}
+#seconds {
+    color:hsl(345, 95%, 68%);
 }

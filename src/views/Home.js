@@ -3,6 +3,7 @@ import './Home.css';
 import {ReactComponent as Facebook} from '../static/icon-facebook.svg';
 import {ReactComponent as Pinterest} from '../static/icon-pinterest.svg';
 import {ReactComponent as Instagram} from '../static/icon-instagram.svg';
+import {ReactComponent as BgMtn} from '../static/pattern-hills.svg'
 export default (props) => {
     var countDownDate = new Date("Jan 5, 2024 15:37:25").getTime();
     var x = setInterval(function() {
@@ -29,25 +30,25 @@ export default (props) => {
                 <h4>WE'RE LAUNCHING SOON</h4>
                 <div className="timerWrap">
                     <div>
-                        <span id='days'></span>
+                        <span id='days' classname='timeBG'></span>
                         <span className="timerSubText">
                             DAYS
                         </span>
                     </div>
                     <div>
-                        <span id='hours'></span>
+                        <span id='hours' classname='timeBG'></span>
                         <span className="timerSubText">
                             HOURS
                         </span>
                     </div>
                     <div>
-                        <span id='minutes'></span>
+                        <span id='minutes' classname='timeBG'></span>
                         <span className="timerSubText">
                             MINUTES
                         </span>
                     </div>
                     <div>
-                        <span id='seconds'></span>
+                        <span id='seconds' classname='timeBG'></span>
                         <span className="timerSubText">
                             SECONDS
                         </span>
@@ -58,6 +59,7 @@ export default (props) => {
                     <Pinterest className="svg"/>
                     <Instagram className="svg"/>
                 </div>
+                <BgMtn className='Mtn'/>
             </div>
         </>
     )
