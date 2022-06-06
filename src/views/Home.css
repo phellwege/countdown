@@ -13,6 +13,7 @@
 .timerWrap {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     width: 50%;
     margin-left: 25%;
     height: 10%;
@@ -49,18 +50,12 @@
     z-index: -1;
 }
 .timeBG {
-    background-size: 20em;
+    color:hsl(345, 95%, 68%);
     background-color: hsl(236, 21%, 26%);
-}
-#days {
-    color:hsl(345, 95%, 68%);
-}
-#hours {
-    color:hsl(345, 95%, 68%);
-}
-#minutes {
-    color:hsl(345, 95%, 68%);
-}
-#seconds {
-    color:hsl(345, 95%, 68%);
+    width: 85px;
+    min-height:70px;
+    border-radius: .25em;
+    box-shadow: 0px 10px 10px black;
+    padding-top: 35px;
+
 }

@@ -31,25 +31,25 @@ export default (props) => {
                 <h4>WE'RE LAUNCHING SOON</h4>
                 <div className="timerWrap">
                     <div>
-                        <span id='days' classname='timeBG'></span>
+                        <span id='days' className='timeBG'></span>
                         <span className="timerSubText">
                             DAYS
                         </span>
                     </div>
                     <div>
-                        <span id='hours' classname='timeBG'></span>
+                        <span id='hours' className='timeBG'></span>
                         <span className="timerSubText">
                             HOURS
                         </span>
                     </div>
                     <div>
-                        <span id='minutes' classname='timeBG'></span>
+                        <span id='minutes' className='timeBG'></span>
                         <span className="timerSubText">
                             MINUTES
                         </span>
                     </div>
                     <div>
-                        <span id='seconds' classname='timeBG'></span>
+                        <span id='seconds' className='timeBG'></span>
                         <span className="timerSubText">
                             SECONDS
                         </span>
