@@ -7,7 +7,7 @@ import BgMtn from '../static/pattern-hills.svg';
 
 export default (props) => {
 
-    var countDownDate = new Date("Jul 29, 2022 15:37:25").getTime();
+    var countDownDate = new Date("Jul 29, 2025 15:37:25").getTime();
     var x = setInterval(function() {
         var now = new Date().getTime();
         var distance = countDownDate - now;
