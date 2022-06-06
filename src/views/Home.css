@@ -60,3 +60,20 @@
     justify-content: center;
     align-items: center;
 }
+@media only screen and (max-width: 400px) {
+    .socialSection {
+        width: 30%;
+        margin: 25% 35%;
+    }
+    .Mtn {
+        height: 30%;
+    }
+    .timerWrap {
+        width: 90%;
+        margin: 5%;
+    }
+    .timeBG {
+        width: 60px;
+        min-height: 60px;
+    }
+}

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Home.css';
 import {ReactComponent as Facebook} from '../static/icon-facebook.svg';
 import {ReactComponent as Pinterest} from '../static/icon-pinterest.svg';
