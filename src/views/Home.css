@@ -53,9 +53,10 @@
     color:hsl(345, 95%, 68%);
     background-color: hsl(236, 21%, 26%);
     width: 85px;
-    min-height:70px;
+    min-height:85px;
     border-radius: .25em;
     box-shadow: 0px 10px 10px black;
-    padding-top: 35px;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
